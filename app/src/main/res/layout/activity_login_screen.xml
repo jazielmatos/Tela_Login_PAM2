@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIN_Screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda_logo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:text="AppJaziel"
+                android:textAlignment="center"
+                android:textColor="#E6FDFFFE"
+                android:textSize="25dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="casual"
+            android:text="Log In"
+            android:textAlignment="center"
+            android:textColor="#3B8CCC"
+            android:textSize="30dp" />
+
+
+        <EditText
+            android:id="@+id/EdtEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda_caixa_texto"
+            android:drawableRight="@drawable/ic_baseline_email"
+            android:fontFamily="casual"
+            android:gravity="left"
+            android:hint="Email Adress"
+            android:inputType="textEmailAddress"
+            android:padding="20dp" />
+
+        <EditText
+            android:id="@+id/EdtPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/borda_caixa_texto"
+            android:drawableRight="@drawable/ic_baseline_vpn_key"
+            android:fontFamily="casual"
+            android:gravity="left"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/BtnSignIN"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#71C0CD"
+            android:fontFamily="casual"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Sign In" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="OR"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#5332CF"
+            android:fontFamily="casual"
+            android:padding="15dp"
+            android:text="Login With Facebook" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#03BADA"
+            android:fontFamily="casual"
+            android:padding="15dp"
+            android:text="Login With Twitter" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Need an Account?"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BtnSignUP"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#DA1414"
+            android:fontFamily="casual"
+            android:padding="15dp"
+            android:text="Sign Up Now" />
+    </LinearLayout>
+</ScrollView>

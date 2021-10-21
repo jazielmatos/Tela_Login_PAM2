@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIN_Screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda_logo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:text="AppJaziel"
+                android:textAlignment="center"
+                android:textColor="#E6FDFFFE"
+                android:textSize="25dp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="casual"
+                android:text="Create an account"
+                android:textColor="#3B8CCC"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/EdtCreateName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/borda_caixa_texto"
+                android:fontFamily="casual"
+                android:gravity="left"
+                android:hint="Name"
+                android:inputType="textEmailAddress"
+                android:padding="20dp" />
+
+            <EditText
+                android:id="@+id/EdtCreateEmail"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/borda_caixa_texto"
+                android:fontFamily="casual"
+                android:gravity="left"
+                android:hint="Email Adress"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="15dp"
+                android:padding="20dp" />
+
+            <EditText
+                android:id="@+id/EdtCreatePassword"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/borda_caixa_texto"
+                android:fontFamily="casual"
+                android:gravity="left"
+                android:hint="Password"
+                android:layout_marginBottom="20dp"
+                android:inputType="textPassword"
+                android:padding="20dp" />
+
+            <Button
+                android:id="@+id/BtnCreateSingUP"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#71C0CD"
+                android:fontFamily="casual"
+                android:padding="15dp"
+                android:text="Sign Up" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#2CB5C1"
+                android:text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"/>
+
+            <Button
+                android:id="@+id/BtnCreateCancel"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#B4DA1414"
+                android:fontFamily="casual"
+                android:padding="15dp"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
